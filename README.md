@@ -1,7 +1,7 @@
 ga-simulink
 ===========
 
-## Simulink model for Georgia Aquarium
+# Simulink model for Georgia Aquarium
 
 Uses ModelCenter to execute RunModel.m
 
