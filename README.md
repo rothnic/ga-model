@@ -15,12 +15,12 @@ Consists of these major components:
 ---
 ### Getting Started
 * Install http://www.sourcetreeapp.com/
-* Checkout this repository to (important):
+* (important) Checkout this repository to:
 ```
 C:\Workspace\ga-model
 ```
 
-* Might want to install [PyCharm](http://www.jetbrains.com/pycharm/download/) and possibly a light text editor like [Brackets](http://brackets.io/)
+* (Optional) Might want to install [PyCharm](http://www.jetbrains.com/pycharm/download/) and possibly a light text editor like [Brackets](http://brackets.io/)
 * Install Analysis Server and ModelCenter
 * Install Microsoft Excel
 * Install Matlab with Simulink
