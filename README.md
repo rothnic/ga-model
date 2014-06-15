@@ -22,6 +22,7 @@ C:\Workspace\ga-model
 
 * (Optional) Might want to install [PyCharm](http://www.jetbrains.com/pycharm/download/) and possibly a light text editor like [Brackets](http://brackets.io/)
 * Install Analysis Server and ModelCenter
+* Set Analysis Server "Analyses Path" through web configuration to install directory
 * Install Microsoft Excel
 * Install Matlab with Simulink
 * (Optional) Install AnyLogic
