@@ -1,0 +1,156 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!--
+This is a template HTML file that is used when generating a readme file for a saved analysis template.
+--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <title>Analysis Template: SolarRenewable</title> 
+  <style type="text/css">
+         body {
+            font-family:arial, sans-serif;
+            font-size:100%;
+            font-weight: normal;
+         }
+         h1 {
+            font-size:1.4em;
+         }
+         h2 {
+            font-size:1.2em;
+            font-weight: normal;
+         }
+         .bold {
+            font-weight: bold;
+         }
+         table.variables {
+            width: 80%;
+            text-align: left;
+            border-spacing: 2px;
+            border-color: gray;
+            border-collapse: collapse;
+         }
+         table.variables th {
+            font-weight: bold;
+            color: #efefef;
+            background-color: #111111;
+            padding: 5px;
+         }
+         table.variables td {
+            border: 1px solid #d4d4d4;
+            padding: 5px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            vertical-align: top;
+         }
+      </style> 
+ </head> 
+ <body> 
+  <h1 id="title">Analysis Template: Solar.pxcz</h1> 
+  <h2><span class="bold">Constraint Block: </span><span id="constraintBlock">1 - Domain::1.3 - Structure::M&amp;S Domain::SolarRenewable</span></h2> 
+  <h2><span class="bold">Description: </span><span id="analysisDescription"></span></h2> 
+  <table class="variables" id="variableTable"> 
+   <tbody> 
+    <tr> 
+     <th>Variable Name</th> 
+     <th>Analysis Path</th> 
+     <th>Units</th> 
+     <th>Default</th> 
+     <!--<th>Value</th>--> 
+     <th>Lower Bound</th> 
+     <th>Upper Bound</th> 
+     <th>Description</th> 
+    </tr> 
+   </tbody> 
+   <tr>
+    <td>panelRating</td>
+    <td>Model.SolarRenewable.panelRating</td>
+    <td>W</td>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>panelEff</td>
+    <td>Model.SolarRenewable.panelEff</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>solarSurfaceArea</td>
+    <td>Model.SolarRenewable.solarSurfaceArea</td>
+    <td>m&sup2;</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>totalkWh</td>
+    <td>Model.SolarRenewable.totalkWh</td>
+    <td>kWh</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>sunRadianceScaler</td>
+    <td>Model.SolarRenewable.sunRadianceScaler</td>
+    <td>Real</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>numPanels</td>
+    <td>Model.SolarRenewable.numPanels</td>
+    <td>Integer</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>solarCostPerWatt</td>
+    <td>Model.SolarRenewable.solarCostPerWatt</td>
+    <td>dollars Per Watt</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>batteryCost</td>
+    <td>Model.SolarRenewable.batteryCost</td>
+    <td>dollars PerKWH</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>solarCapitalCost</td>
+    <td>Model.SolarRenewable.solarCapitalCost</td>
+    <td>USD</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>circuitLoss</td>
+    <td>Model.SolarRenewable.circuitLoss</td>
+    <td>Real</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+  </table>   
+ </body>
+</html>

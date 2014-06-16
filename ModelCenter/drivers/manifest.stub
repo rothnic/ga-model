@@ -1,0 +1,13 @@
+
+Name: LatinHypercubeSampling.class
+Java-Bean: True
+
+Name: MonteCarlo.class
+Java-Bean: True
+
+Name: Minimizer.class
+Java-Bean: True
+
+Name: ParmStudy.class
+Java-Bean: True
+
