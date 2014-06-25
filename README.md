@@ -1,9 +1,8 @@
-ga-model
+Georgia Aquarium SoS Model
 ===========
 
-### Model for Georgia Aquarium
 
-Consists of these major components:
+### Consists of these major components:
 
 * Energy Model
 * Pedestrian Model
