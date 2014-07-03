@@ -1,0 +1,7 @@
+panelRating=0.0
+panelEff=0.0
+sunRadianceScaler=0.0
+numPanels=0
+solarCostPerWatt=0.0
+batteryCost=0.0
+circuitLoss=0.0
